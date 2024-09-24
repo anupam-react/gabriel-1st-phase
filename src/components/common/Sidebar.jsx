@@ -63,7 +63,7 @@ const Sidebar = () => {
                 <span className="ms-3">Sales Analytics</span>
               </Link>
             </li>
-            <li className="pb-4">
+            {/* <li className="pb-4">
               <Link
                 to="/loyalty"
                 className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
@@ -74,7 +74,7 @@ const Sidebar = () => {
                 <img src="./la_gifts.png" alt="" className="w-6 h-6" />
                 <span className="ms-3">Loyalty Program Management</span>
               </Link>
-            </li>
+            </li> */}
             <li className="pb-4">
               <Link
                 to="/marketing"
@@ -87,7 +87,7 @@ const Sidebar = () => {
                 <span className="ms-3">Marketing Campaign</span>
               </Link>
             </li>
-            <li className="pb-4">
+            {/* <li className="pb-4">
               <Link
                 to="/receipt"
                 className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
@@ -102,8 +102,8 @@ const Sidebar = () => {
                 />
                 <span className="ms-3">Digital Receipt</span>
               </Link>
-            </li>
-            {/* <li className="pb-4">
+            </li> */}
+            <li className="pb-4">
               <Link
                 to="/inventory"
                 className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
@@ -135,7 +135,7 @@ const Sidebar = () => {
                 <span className="ms-3">Comparison</span>
               </Link>
             </li>
-            <li className="pb-4">
+            {/* <li className="pb-4">
               <Link
                 to="/promo-code"
                 className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
@@ -150,7 +150,7 @@ const Sidebar = () => {
                 />
                 <span className="ms-3">Promo Code</span>
               </Link>
-            </li>
+            </li> */}
             <li className="pb-4">
               <Link
                 to="/purchases"
@@ -163,7 +163,7 @@ const Sidebar = () => {
                 <span className="ms-3">Purchases</span>
               </Link>
             </li>
-            <li className="pb-4">
+            {/* <li className="pb-4">
               <Link
                 to="/heatmap"
                 className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
@@ -174,7 +174,7 @@ const Sidebar = () => {
                 <img src="./bx_map.png" alt="" className="w-6 h-6" />
                 <span className="ms-3">Heat Maps</span>
               </Link>
-            </li>
+            </li> */}
             <li className="pb-4">
               <Link
                 to="/feedback"
@@ -190,7 +190,7 @@ const Sidebar = () => {
                 />
                 <span className="ms-3">Customer Feedback</span>
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </aside>
