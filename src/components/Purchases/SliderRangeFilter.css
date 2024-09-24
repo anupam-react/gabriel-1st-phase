@@ -1,0 +1,20 @@
+/* Slider track */
+.rc-slider-track {
+    background-color: #0070BC; /* Change to your desired color */
+    height: 8px; /* Change to your desired height */
+  }
+  
+  /* Slider handle */
+  .rc-slider-handle {
+    background-color:  #0070BC; /* Change to your desired color */
+    height: 20px; /* Increase the size of the handle */
+    width: 20px; /* Increase the size of the handle */
+    margin-top: -6px; /* Adjust the position */
+  }
+  
+  /* Slider rail (background track) */
+  .rc-slider-rail {
+    background-color: #ddd; /* Change to your desired color */
+    height: 8px; /* Match the height of the track */
+  }
+  

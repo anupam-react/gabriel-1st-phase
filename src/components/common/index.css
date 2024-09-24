@@ -1,0 +1,13 @@
+.view{
+ font-size: 12px;    
+}
+.view:hover {
+    color: red;
+    cursor: pointer
+}
+.add-hover:hover{
+            background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+   border-radius: 10px;
+   color:white;
+   padding: 6px 14px; 
+}

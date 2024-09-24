@@ -1,0 +1,13 @@
+::placeholder {
+  color: #0070bc;
+}
+.sign-button {
+  color: white;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 10px 80px;
+  border-radius: 10px;
+}
+.line {
+  border-left: 1px solid gray;
+  height: 20px;
+}

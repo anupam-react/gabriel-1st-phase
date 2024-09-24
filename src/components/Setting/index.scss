@@ -1,0 +1,130 @@
+.settingConatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.settingMain {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 30px;
+  color: #000000b2;
+  border-radius: 8px;
+}
+.notificationConatiner,
+.supportContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  color: #000000b2;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.supportContainer {
+  margin-top: 40px;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 10px 0 white;
+  padding-left: 40px;
+}
+.report-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 10px 0 white;
+  width: 100%;
+}
+.message-box {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.account-status-Main {
+  display: flex;
+  gap: 15px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px 16px;
+  .account-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    .dot {
+      width: 18px;
+      height: 18px;
+      background-color: #3bb54a;
+      border-radius: 50%;
+    }
+  }
+}
+.account-input {
+  box-shadow: 0 4px 8px 0 gray, 0 6px 10px 0 white;
+  border-radius: 10px;
+  width: 50vw;
+  border: none;
+  padding: 8px 30px 8px 50px;
+  color: "#0070BC";
+}
+.report-input {
+  box-shadow: 0 4px 8px 0 gray, 0 6px 10px 0 white;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 20px 8px 20px;
+  color: "#0070BC";
+}
+.addstaf{
+  box-shadow: 0 4px 8px 0 gray, 0 6px 10px 0 white;
+  width: 50vw;
+}
+.addEmp{
+  box-shadow: 0 4px 8px 0 gray, 0 6px 10px 0 white;
+}
+.new-input{
+  box-shadow: 0 4px 8px 0 gray, 0 6px 10px 0 white;
+  border-radius: 10px;
+  width: 400px;
+  border: none;
+  padding: 8px 30px 8px 50px;
+  color: "#0070BC";
+}
+.account-add-button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 50vw;
+  border: 3px solid #fd575b;
+  color: #fd575b;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 40px 0px;
+}
+.add {
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.back2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+ padding: 10px;
+  width: 200px;
+  color: white;
+  border-radius: 10px;
+  height: fit-content;
+}

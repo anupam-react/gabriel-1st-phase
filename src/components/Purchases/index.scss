@@ -1,0 +1,25 @@
+.inActitive {
+  background-color: white;
+  border: none;
+}
+.purchases-buttons {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0px;
+  button {
+    color: #121212b2;
+    width: 250px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+  }
+  .inActitive {
+    background-color: white;
+  }
+  .activeButton {
+    color: white;
+    background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+    border: none;
+  }
+}

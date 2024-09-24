@@ -1,0 +1,164 @@
+.campaign-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.campaign-header {
+  background: linear-gradient(180deg, #00aaea 0%, #0070bc 100%);
+  color: white;
+  font-weight: 600;
+  padding: 16px 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  width: 35vw;
+}
+.live-dot,
+.Past-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #03cc5e;
+}
+.Past-dot {
+  background-color: #959495;
+}
+.comapaign-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.campaign-card1-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+
+  .card-hearder {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .campaign-image {
+    position: relative;
+    .prod-img {
+      width: 100%;
+    }
+    .menu-dots {
+      position: absolute;
+      top: 5%;
+      right: 2%;
+      cursor: pointer;
+    }
+  }
+  .run-again,
+  .unpause {
+    background: linear-gradient(180deg, #00aaea 0%, #0070bc 100%);
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+  }
+  .unpause {
+    background: #a868fb;
+  }
+  .shop-now {
+    background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    height: fit-content;
+  }
+}
+.campaign-menu-container {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 20px;
+  min-width: 120px;
+}
+.campaign-menu-main {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  z-index: 999;
+}
+.campaign-view-container {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+.campaign-view-main {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+  color: #12121280;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  .type-text {
+    display: flex;
+    p {
+      width: 170px;
+    }
+    span {
+      padding: 0px 30px 0px 20px;
+    }
+    .live-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      padding: 0px;
+    }
+  }
+}
+.live-dots {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #03cc5e;
+}
+.run-agains {
+  background: linear-gradient(180deg, #00aaea 0%, #0070bc 100%);
+  padding: 10px 20px;
+  width: 250px;
+  color: white;
+  border-radius: 10px;
+}
+.shop-now2 {
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  height: fit-content;
+}
+.back {
+  display: flex;
+  gap: 10px;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.cupon-campaign{
+  background: linear-gradient(180deg, #00AAEA 0%, #0070BC 100%);
+  padding: 30px 70px;
+  color: white;
+  border-radius: 8px;
+}

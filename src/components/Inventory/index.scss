@@ -1,0 +1,283 @@
+.inventory-button {
+  color: white;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  width: 210px;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 14px;
+}
+.addprod-button {
+  color: white;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+  align-items: center;
+  width: 210px;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.inventory-button2 {
+  color: white;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  width: 210px;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.card-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 20px;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 240px;
+  //   height: 240px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.activity {
+  background-color: #0070bc33;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  width: fit-content;
+}
+.dots {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #3bb54a;
+}
+.inActive {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0px;
+  img {
+    width: 130px;
+    height: 130px;
+  }
+}
+.text {
+  font-weight: 600;
+  text-align: center;
+}
+.profile-container2 {
+  background-color: #ffffff;
+  width: 280px;
+  padding: 20px 14px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  border-radius: 10px;
+  z-index: 999;
+}
+.loyalty-form-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.input-loyalty2 {
+  background-color: transparent;
+  border: 1px solid #8f8f8f;
+  width: 100%;
+  border-radius: 8px;
+  color: #12121280;
+}
+.image-shadow {
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 white;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+.menuButton7 {
+  color: white;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.menuButton8 {
+  color: white;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.menus {
+  position: absolute;
+  z-index: 999;
+  top: 20%;
+  right: -50%;
+}
+.back-image {
+  width: 100%;
+  height: 100%;
+}
+.image-text {
+  color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 8, 8, 0.781);
+  border-radius: 8px;
+}
+.gift-container2 {
+  background-color: white;
+  border-radius: 10px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gift-main2 {
+  position: relative;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-image2 {
+  width: 200px;
+  height: 200px;
+}
+.image-text2 {
+  color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(24, 24, 24, 0.342);
+  border-radius: 8px;
+}
+.footer-Main2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0px;
+}
+.footer-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  color: #12121280;
+  font-weight: 600;
+  p {
+    width: 240px;
+  }
+}
+.edit-button2 {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 4px 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.ad-container {
+  background-color: white;
+  border-radius: 10px;
+  height: 90vh;
+  padding: 20px;
+}
+.ad-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 white;
+  background-color: white;
+  border-radius: 14px;
+  padding: 20px;
+  // height: 75vh;
+  width: 60vw;
+}
+.payment-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  gap: 60px;
+  color: #575757;
+  .payment-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    input {
+      background-color: #eeeeee;
+      color: #0070bc;
+      border-radius: 8px;
+      border: none;
+      border-bottom: 1px solid #0070bc;
+    }
+    .cardN-input {
+      padding-left: 70px;
+    }
+    .visa-logo {
+      width: 50px;
+      height: 25px;
+      position: absolute;
+      top: 55%;
+      left: 10px;
+    }
+  }
+}
+.payment-card {
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 white;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  height: fit-content;
+  width: 380px;
+}
+.edit-botton1 {
+  padding: 10px 18px;
+  border: 1px solid #8f8f8f;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.upload-bttn{
+  background: linear-gradient(180deg, #00AAEA 0%, #0070BC 100%);
+  padding: 5px 30px;
+  color: white;
+  border-radius: 5px;
+
+}
+

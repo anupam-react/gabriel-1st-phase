@@ -1,0 +1,17 @@
+.retailer-container {
+  background-color: #ffffff;
+  width: 280px;
+  padding: 20px 14px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.promoButton {
+  color: white;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 0px 24px;
+  border-radius: 10px;
+}
