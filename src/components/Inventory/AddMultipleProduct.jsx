@@ -1,26 +1,51 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./index.scss";
 import { useNavigate } from "react-router-dom";
 import { DialogDefault } from "../common/DilogBox";
-import Select from "react-select";
+import { createApiData } from "../../utiils";
 const AddMultipleProduct = () => {
   const [openSuccess, setSuccess] = useState(false);
   const [openSuccess1, setSuccess1] = useState(false);
-  const [openUploadImage, setUploadImage] = useState(false);
-  const navigate = useNavigate();
-  const handleSubmit = () => {
-    setSuccess(true);
-    setTimeout(() => {
-      setSuccess(false);
-    }, 1000);
-    setTimeout(() => {
-      setSuccess1(true);
-    }, 2000);
-    setTimeout(() => {
-      setSuccess1(false);
-      navigate("/inventory");
-    }, 3000);
+  const [excelFile, setExcelFile] = useState(null);
+
+  const handleExcelChange = (e) => {
+    setExcelFile(e.target.files[0]);
   };
+  const navigate = useNavigate();
+  
+
+  const handleSubmit = async () => {
+    // event.preventDefault();
+    const formData = new FormData();
+    formData.append('excelFile', excelFile);
+    
+
+    
+    try {
+      const response = await createApiData(
+        "https://money-chat.com/api/api/v1/brandLoyalty/createBulkProducts",
+        formData
+      );
+
+      setSuccess(true);
+      setTimeout(() => {
+        setSuccess(false);
+      }, 1000);
+      setTimeout(() => {
+        setSuccess1(true);
+      }, 2000);
+      setTimeout(() => {
+        setSuccess1(false);
+        navigate("/inventory");
+      }, 3000);
+    } catch (error) {
+      console.log(error);
+      return error;
+    }
+  };
+
+
+  
   const options = [
     { value: "Outlet -  01", label: "Outlet -  01" },
     { value: "Outlet -  02", label: "Outlet -  02" },
@@ -79,7 +104,28 @@ const AddMultipleProduct = () => {
               <td></td>
               <td></td>
               <td>
-                <button className="upload-bttn" onClick={()=>setUploadImage(true)}>Upload</button>
+              <label
+                for="dropzone-file3"
+                className="flex bg-white items-center shadow rounded-md justify-center "
+                
+              >
+                <div>
+    
+                  <p className="upload-bttn cursor-pointer w-[200px]" >Upload Excel File</p>
+                  <p>{excelFile ? `Selected Excel File: ${excelFile.name}` : "No Excel file selected"}</p>
+                </div>
+                <input
+                  id="dropzone-file3"
+                  type="file"
+                   accept=".xlsx, .xls"
+                  className="hidden"
+                  onChange={handleExcelChange}
+               
+                  
+                />
+              </label>
+       
+                
               </td>
               <td></td>
               <td></td>
@@ -106,7 +152,7 @@ const AddMultipleProduct = () => {
         <button className="inventory-button2"  onClick={handleSubmit}>Update & Save Product</button>
         </div>
       </div>
-      <DialogDefault open={openUploadImage} handleOpen={setUploadImage}>
+      {/* <DialogDefault open={openUploadImage} handleOpen={setUploadImage}>
         <div className="p-6">
             <div className="flex justify-center items-center">
                 <img src="../Vector (40).png" alt="" className="cursor-pointer" onClick={()=>setUploadImage(false)}/>
@@ -123,7 +169,7 @@ const AddMultipleProduct = () => {
 
             </div>
         </div>
-      </DialogDefault>
+      </DialogDefault> */}
       <DialogDefault open={openSuccess} handleOpen={setSuccess}>
         <div className="alert">
           <img src="../../Vector (2).png" alt="" />
