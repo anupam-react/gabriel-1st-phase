@@ -117,7 +117,7 @@ This metric is crucial for understanding revenue contributions per customer.`,
             />
           </div>
         </div>
-        <div>
+        {/* <div>
           <p className="text-xl text-center font-[500] pb-4">Points System</p>
           <div className="flex flex-col gap-4">
             <InfoCard2
@@ -158,7 +158,7 @@ This metric is crucial for understanding revenue contributions per customer.`,
               }}
             />
           </div>
-        </div>
+        </div> */}
         <div>
           <p className="text-xl text-center font-[500] pb-4">CLV</p>
           <div>

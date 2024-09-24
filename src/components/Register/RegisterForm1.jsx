@@ -58,7 +58,7 @@ const [selectedSubCat, setSubCat] = useState(null);
     <div className="flex justify-center items-center h-[100vh] w-full">
       <div className="w-2/6 px-4 bg-white border z-50 border-gray-200 rounded shadow-xl sm:p-6 md:p-6 dark:bg-gray-800 dark:border-gray-700">
         <div className="flex flex-col items-center mb-10  gap-2">
-          <img src="./image 2 (2).svg" alt="" className="w-36 h-18 pb-4" />
+          <img src="./F5FEEB4E-8351-4AA1-964B-EEFC6865EEC0.png" alt="" className="w-36 h-18 pb-4" />
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div
               className=" h-2.5 rounded-full progress"
@@ -213,6 +213,7 @@ const [selectedSubCat, setSubCat] = useState(null);
                         value={selectedSubCat}
                         options={options}
                         defaultValue={options?.[0]?.value}
+                        isSearchable={false}
                         onChange={(e) => {
                           setSubCat(e)
                           setSubCategoryId(e.value)

@@ -59,6 +59,7 @@ const CustomOption = (props) => {
           components={{ Option: CustomOption, SingleValue: CustomSingleValue }}
           value={selectedOption}
           onChange={handleChange}
+          isSearchable={false}
           defaultValue={options?.[0]?.value}
           placeholder="Business Type"
         />

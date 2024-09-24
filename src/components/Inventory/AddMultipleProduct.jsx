@@ -103,7 +103,7 @@ const AddMultipleProduct = () => {
         </table>
         <div className="flex justify-center mt-[50px]">
 
-        <button className="inventory-button2"  onClick={handleSubmit}>Update & Save ProductS</button>
+        <button className="inventory-button2"  onClick={handleSubmit}>Update & Save Product</button>
         </div>
       </div>
       <DialogDefault open={openUploadImage} handleOpen={setUploadImage}>

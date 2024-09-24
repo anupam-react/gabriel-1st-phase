@@ -22,7 +22,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/transaction"
-                className={`flex items-center add-hover ${
+                className={`flex items-center ${
                   rootPath === "transaction" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(0)}
@@ -34,7 +34,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/customer"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "customer" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(1)}
@@ -50,7 +50,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/sales"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "sales" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(2)}
@@ -66,7 +66,7 @@ const Sidebar = () => {
             {/* <li className="pb-4">
               <Link
                 to="/loyalty"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "loyalty" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(3)}
@@ -78,7 +78,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/marketing"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "marketing" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(4)}
@@ -90,7 +90,7 @@ const Sidebar = () => {
             {/* <li className="pb-4">
               <Link
                 to="/receipt"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "receipt" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(5)}
@@ -106,7 +106,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/inventory"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "inventory" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(6)}
@@ -122,7 +122,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/comparison"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "comparison" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(7)}
@@ -138,7 +138,7 @@ const Sidebar = () => {
             {/* <li className="pb-4">
               <Link
                 to="/promo-code"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "promo-code" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(8)}
@@ -154,7 +154,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/purchases"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "purchases" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(9)}
@@ -166,7 +166,7 @@ const Sidebar = () => {
             {/* <li className="pb-4">
               <Link
                 to="/heatmap"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "heatmap" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(10)}
@@ -178,7 +178,7 @@ const Sidebar = () => {
             <li className="pb-4">
               <Link
                 to="/feedback"
-                className={`flex items-center add-hover dark:text-white  dark:hover:bg-gray-700 group ${
+                className={`flex items-center dark:text-white  dark:hover:bg-gray-700 group ${
                   rootPath === "feedback" && "text-[#0070BC]"
                 }`}
                 onClick={() => handleLinkClick(11)}

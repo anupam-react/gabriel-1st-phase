@@ -84,7 +84,7 @@ const FeedBack = () => {
               return (
                   <tr key={i}>
                     <td>
-                      <div className="flex items-center justify-center gap-6 relative">
+                      <div className="flex items-center justify-start ml-10 gap-6 relative">
                       <div className="relative">
                     <div className="profile-image cursor-pointer" onClick={() =>{
                       getCustomerInfoForParticularUser(item?.user?._id)

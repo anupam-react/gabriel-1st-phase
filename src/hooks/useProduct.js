@@ -46,7 +46,9 @@ const useProduct = () => {
 
   const navigate = useNavigate();
 
-  async function getProduct(search="", fromDate="", toDate="", page=1, limit=1000, maxStock="", minStock="", maxPrice="", minPrice="", categoryId ="", subCategoryId="") {
+  console.log(category , selectedCat)
+
+  async function getProduct(search="", fromDate="", toDate="", page=1, limit=1000, maxStock="", minStock="", maxPrice="", minPrice="", categoryId = "", subCategoryId="") {
     const data = await fetchApiData(
       `https://money-chat.com/api/api/v1/brandLoyalty/getProductByToken?search=${search}&fromDate=${fromDate}&toDate=${toDate}&page=${page}&limit=${limit}&maxStock=${maxStock}&minStock=${minStock}&maxPrice=${maxPrice}&minPrice=${minPrice}&categoryId=${categoryId}&subCategoryId=${subCategoryId}`
     );
@@ -93,7 +95,7 @@ const useProduct = () => {
 
   useEffect(() => {
     getProduct();
-  }, []);
+  }, [selectedCat]);
 
   const handleCreateProduct = async (event) => {
     console.log(image , name , description , nutrition , sku , price , brand , quantity , dimension , returnPolicy , shippingInfo, productColor, productSize , online , inStore , keywords , outletId , categoryId , subCategoryId)

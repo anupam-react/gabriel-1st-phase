@@ -117,6 +117,7 @@ const Inventory = () => {
             className="input-loyalty2"
             styles={{ width: "20px" }}
             value={selectedCat}
+            
             options={category?.map((user) => ({
               value: user._id,
               label: user?.name,
@@ -145,6 +146,7 @@ const Inventory = () => {
 
         </div>
       </div>
+        <p className="pt-4 text-xl">{selectedCat ? selectedCat?.label :"All Category"}</p>
       <div className="card-main">
         {product?.docs?.map((d, i) => (
           <InventoryCard data={d} key={i} />

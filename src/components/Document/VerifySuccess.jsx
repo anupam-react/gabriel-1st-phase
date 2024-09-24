@@ -9,7 +9,7 @@ const VerifySuccess = () => {
         <span className="text-[#0070BC] font-semibold"> Verification!</span>
       </p>
       <p className="text-[#00000099] text-sm">
-        Our Executives will review your Account and notify accordingly!
+        We are reviewing your information and we will get back to you within 24 hours!
       </p>
     </div>
   );

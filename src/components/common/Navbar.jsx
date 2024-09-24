@@ -9,7 +9,7 @@ const Navbar = ({data}) => {
   
   return (
     <div className="flex justify-between items-center shadow-xl z-40 h-20 px-6">
-      <img src="./image 2 (2).svg" alt="" className="w-36 h-18 pb-4" />
+      <img src="../F5FEEB4E-8351-4AA1-964B-EEFC6865EEC0.png" alt="" className="w-[180px] h-18 pb-4 ml-2" />
       <div className="flex gap-10 mr-4">    
         <div
           className="flex items-center px-6 h-12"

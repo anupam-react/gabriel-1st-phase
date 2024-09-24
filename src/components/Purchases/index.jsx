@@ -71,14 +71,16 @@ const Purchases = () => {
         >
           In-App Purchases
         </button>
-        <button
+        {/* <button
           className={`${activeLink === 1 ? "activeButton" : "inActitive"}`}
           onClick={() => handleLinkClick(1)}
         >
           In-Store Purchases
-        </button>
+        </button> */}
       </div>
-      {activeLink === 1 ? <PurchaseTable2 data={purchasesStore} getPurchasesStore={getPurchasesStore}/> : <PurchaseTable1 data={purchasesApp} getPurchasesApp={getPurchasesApp}/>}
+      {activeLink === 1 ?
+       <PurchaseTable2 data={purchasesStore} getPurchasesStore={getPurchasesStore}/> :
+       <PurchaseTable1 data={purchasesApp} getPurchasesApp={getPurchasesApp}/>}
       <PurchasesReport open={open} setOpen={setOpen} handleOpen={handleOpen} />
       {isOpen && <PurchasesFilter closeDrawer={closeDrawer} open={isOpen}  getPurchasesApp={getPurchasesApp}
     getPurchasesStore={getPurchasesStore}/>}

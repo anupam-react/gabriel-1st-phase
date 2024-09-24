@@ -66,11 +66,11 @@ It factors in the revenue generated from a customer, the duration of the relatio
       title: "CUSTOMER DEMOGRAPHIC",
       openHandler: () => setOpenDemographic(true),
     },
-    {
-      image: "./Ellipse 3.png",
-      title: "CUSTOMER LOYALITY PROGRAM",
-      openHandler: () => setOpenLoyality(true),
-    },
+    // {
+    //   image: "./Ellipse 3.png",
+    //   title: "CUSTOMER LOYALITY PROGRAM",
+    //   openHandler: () => setOpenLoyality(true),
+    // },
     {
       image: "./Ellipse 4.png",
       title: "Customer Engagement Metrics ",
@@ -159,7 +159,7 @@ It factors in the revenue generated from a customer, the duration of the relatio
         </div>
       </div>
       <div className="pt-4 flex justify-between gap-6">
-        <div>
+        {/* <div>
           <p
             className="text-xl text-center font-[600] pb-4"
             style={{ color: "black" }}
@@ -235,7 +235,7 @@ It factors in the revenue generated from a customer, the duration of the relatio
               }}
             />
           </div>
-        </div>
+        </div> */}
         <div>
           <p
             className="text-xl text-center font-[600] pb-4"
